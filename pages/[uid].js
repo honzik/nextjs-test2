@@ -15,7 +15,8 @@ export const getStaticProps = useGetStaticProps({
     return {
       uid: params.uid
     }
-  }
+  },
+  notFound: true
 });
 
 export const getStaticPaths = useGetStaticPaths({
@@ -27,7 +28,7 @@ export const getStaticPaths = useGetStaticPaths({
         uid: prismicDocument.uid
       }
     }
-  }
+  }  
 });
 
 export default Page;

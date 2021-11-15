@@ -16,7 +16,6 @@ export default class extends Document {
       <Html>
         <Head>
           <script async defer src={`//static.cdn.prismic.io/prismic.js?new=true&repo=${repoName}`}></script>          <script async defer src={`//static.cdn.prismic.io/prismic.js?repo=${repoName}&new=true`}></script>
-
         </Head>
         <body>
           <Main />
