@@ -1,0 +1,39 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "quote",
+    "items": [],
+    "primary": {
+      "quotetext": [
+        {
+          "type": "paragraph",
+          "text": "Eu duis consequat consequat ipsum incididunt aliquip enim amet aliqua proident dolor est est minim.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "quoteReference",
+    "name": "Quote Reference",
+    "slice_type": "quote",
+    "items": [],
+    "primary": {
+      "quotetext": [
+        {
+          "type": "paragraph",
+          "text": "In aliquip ipsum irure esse.",
+          "spans": []
+        }
+      ],
+      "reference": [
+        {
+          "type": "paragraph",
+          "text": "Aliquip cupidatat Lorem anim.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

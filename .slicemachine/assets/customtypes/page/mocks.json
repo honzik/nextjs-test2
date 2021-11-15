@@ -1,0 +1,50 @@
+{
+  "id": "0d38345f-d318-4cfe-a86d-eb7d63b75902",
+  "uid": "harum-eum-repellat",
+  "type": "page",
+  "data": {
+    "meta_title": "productize 24/365 synergies",
+    "meta_description": "leverage value-added eyeballs",
+    "social_cards": [
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "iterate wireless ROI",
+        "social_card_description": "exploit turn-key vortals"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "whiteboard customized markets",
+        "social_card_description": "empower virtual e-business"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "transform world-class e-markets",
+        "social_card_description": "morph user-centric solutions"
+      }
+    ]
+  }
+}
