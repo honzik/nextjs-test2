@@ -52,3 +52,5 @@ export const Router = {
 export const Client = (req = null, options = {}) => (
   Prismic.client(apiEndpoint, Object.assign({ routes: Router.routes }, options))
 );
+
+export const repoName = smConfig.repoName;
