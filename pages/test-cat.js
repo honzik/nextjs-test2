@@ -1,8 +1,11 @@
+import Layout from "./../components/Layout";
+
 const TestCat = (props) => {
     return (    
-        <div>
+        <Layout menu={props.menu}>
+            <h2>Cat at random</h2>
             <img src={ `https://cataas.com${props.cat.url}` } />
-        </div>    
+        </Layout>
     );
 };
 
