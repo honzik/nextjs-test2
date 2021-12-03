@@ -36,7 +36,7 @@ export const Router = {
   routes: [
     {
       "type":"page",
-      "path":"/:uid"
+      "path":"/:lang/:uid"
     },
     {
       "type":"home-page",

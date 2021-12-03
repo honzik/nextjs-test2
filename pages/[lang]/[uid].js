@@ -1,10 +1,15 @@
-import { Client } from "../prismic-configuration";
+import { Client } from "../../prismic-configuration";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
+import Layout from "../../components/Layout";
 
-import resolver from "../sm-resolver.js";
+import resolver from "../../sm-resolver.js";
 
-const Page = (props) => <SliceZone {...props} resolver={resolver} />;
+const Page = (props) => (
+  <Layout menu={props.menu}>
+    <SliceZone {...props} resolver={resolver} />
+  </Layout>
+)
 
 // Fetch content from prismic
 export const getStaticProps = useGetStaticProps({
@@ -13,7 +18,8 @@ export const getStaticProps = useGetStaticProps({
   type: 'page',
   apiParams({ params }) {
     return {
-      uid: params.uid
+      uid: params.uid,
+      lang: params.lang
     }
   },
   notFound: true
@@ -22,10 +28,11 @@ export const getStaticProps = useGetStaticProps({
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
   type: 'page',
-  formatPath: (prismicDocument) => {
+  formatPath: (prismicDocument) => {    
     return {
       params: {
-        uid: prismicDocument.uid
+        uid: prismicDocument.uid,
+        lang: prismicDocument.lang
       }
     }
   }  
